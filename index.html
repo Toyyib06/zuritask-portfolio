@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsiveness.css">
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+           <input type="checkbox" name="" id="check">
+           <label for="check">
+               <img src="./images/icon-hamburger.svg" alt="hamburger" id="openNav">
+               <img src="./images/icon-close.svg" alt="close" id="closeNav">
+           </label>
+            <nav>
+                <img src="./images/programmer.jpg" alt="programmer">
+               <ul>
+                   <li>
+                       <a href="index.html">Home</a>
+                   </li>
+                   <li>
+                       <a href="#about-section">About</a>
+                   </li>
+                   <li>
+                       <a href="">Services</a>
+                   </li>
+                   <li>
+                       <a href="#portfolio-section">Portfolio</a>
+                   <li>
+                       <a href="#contact-section">Contact Me</a>
+                   </li>
+               </ul>
+            </nav>
+
+        </header>
+
+        <main>
+            <h1>Hi there, i'm <br> <span>Abdulganiyu Toyyib</span>
+            <br> A FRONTEND DEVELOPER</h1>
+        </main>
+
+      
+
+        <div id="about-section">
+            <div class="hero-box">
+                <img src="./images/hero.jpg" alt="" id="hero">
+            </div>
+            <div class="about-content">
+                <h2>About Me</h2>
+                <p>I am Abdulganiyu Toyyib, a passionate frontend developer. I develop website with html, css and vanilla Javascript.<br>
+                Being a dilligent hardworking and result oriented guy, i always work hard towards achieving best result on each project i work on.</p>
+            </div>
+        </div>
+
+        <div id="portfolio-section">
+            <h2>My Portfolio</h2>
+            <div id="portfolio-section-img">
+                <a href="">
+                    <img src="./project img/clipboard-landing-page.jpg" alt="clipboard"><br>
+                    clipboard-landing-page
+                </a>
+                <a href="">
+                    <img src="./project img/easybank.jpg" alt=""> <br>
+                    Easybanking-Landing-Page
+                </a>
+                <a href="">
+                    <img src="./project img/huddle-landing-page.jpg" alt=""> <br>
+                    huddle-landing-page
+                </a>
+                <a href="">
+                    <img src="./project img/insure landing page.jpg" alt=""><br>
+                    Insure-Landing-Page
+                </a>
+                <a href="">
+                    <img src="./project img/single price-component.jpg" alt=""> <br>
+                    Single-component
+                </a>
+                <a href="">
+                    <img src="./project img/huddle-curve.jpg" alt=""><br>
+                    Huddle-curve
+                </a>
+            </div>
+        </div>
+
+        <div id="contact-section">
+            <h2>You have message for me?</h2>
+            <form action="mailto:abdulghoniyhtoyyib@gmail.com">
+                <input type="text" name="full name" placeholder="Full Name">
+                <input type="text" placeholder="Email Address">
+                <input type="text" placeholder="Phone Number">
+                <textarea  cols="30" rows="10" placeholder="Enter your message"></textarea>
+                <button type="submit" id="messageBtn">Submit</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

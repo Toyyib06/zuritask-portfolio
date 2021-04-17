@@ -1,0 +1,45 @@
+@media (min-width:678px){
+    nav ul{
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    nav img {
+        display: none;
+    }
+
+    nav {
+        width: 90%;
+        background: none;
+        position: absolute;
+        top: -2rem;
+        left: 0;
+    }
+
+    label {
+        display: none;
+    }
+
+    nav ul li {
+        border-top: none;
+    }
+
+    nav a:hover{
+        background: grey;
+        padding: 0;
+    }
+
+    #about-section{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .hero-box:hover{
+        animation: none;
+    }
+
+    #portfolio-section-img{
+        /* margin: 1rem 4rem; */
+    }
+}
